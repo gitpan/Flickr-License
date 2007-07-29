@@ -3,6 +3,7 @@ use Class::Singleton;
 use Flickr::API;
 use Flickr::API::Utils;
 use Carp;
+use strict;
 
 use vars qw(@ISA);
 @ISA = qw(Class::Singleton);
@@ -13,11 +14,11 @@ Flickr::License::Helper - Helper class to grab details of the currently supporte
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
